@@ -16,7 +16,7 @@ import product.controller.BeanConfiguration;
 import product.repository.PhoneRepository;
 
 @SpringBootApplication
-public class SpringPhonesApplication implements CommandLineRunner {
+public class SpringPhonesApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringPhonesApplication.class, args);
